@@ -1,0 +1,10 @@
+# dataset path
+train: D:/YOLO-MIF-master/datasets/train.txt
+val: D:/YOLO-MIF-master/datasets/val.txt
+test: D:/YOLO-MIF-master/datasets/val.txt
+
+# number of classes
+nc: 1
+
+# class names
+names: ['ship']

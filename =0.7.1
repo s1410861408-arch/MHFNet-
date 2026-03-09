@@ -1,0 +1,86 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting timm
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/ef/50/de09f69a74278a16f08f1d562047a2d6713783765ee3c6971881a2b21a3f/timm-1.0.25-py3-none-any.whl (2.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.6/2.6 MB 3.4 MB/s  0:00:01
+Collecting efficientnet-pytorch
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/2e/a0/dd40b50aebf0028054b6b35062948da01123d7be38d08b6b1e5435df6363/efficientnet_pytorch-0.7.1.tar.gz (21 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: torch in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from timm) (2.7.1+cu118)
+Requirement already satisfied: torchvision in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from timm) (0.22.1+cu118)
+Requirement already satisfied: pyyaml in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from timm) (6.0.3)
+Collecting huggingface_hub (from timm)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/92/e3/e3a44f54c8e2f28983fcf07f13d4260b37bd6a0d3a081041bc60b91d230e/huggingface_hub-1.6.0-py3-none-any.whl (612 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 612.9/612.9 kB 2.6 MB/s  0:00:00
+Collecting safetensors (from timm)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/a0/60/429e9b1cb3fc651937727befe258ea24122d9663e4d5709a48c9cbfceecb/safetensors-0.7.0-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (507 kB)
+Requirement already satisfied: filelock>=3.10.0 in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from huggingface_hub->timm) (3.20.0)
+Requirement already satisfied: fsspec>=2023.5.0 in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from huggingface_hub->timm) (2025.12.0)
+Collecting hf-xet<2.0.0,>=1.3.2 (from huggingface_hub->timm)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/9d/ca/907890ce6ef5598b5920514f255ed0a65f558f820515b18db75a51b2f878/hf_xet-1.3.2-cp37-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.2/4.2 MB 7.7 MB/s  0:00:00
+Collecting httpx<1,>=0.23.0 (from huggingface_hub->timm)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/2a/39/e50c7c3a983047577ee07d2a9e53faf5a69493943ec3f6a384bdc792deb2/httpx-0.28.1-py3-none-any.whl (73 kB)
+Requirement already satisfied: packaging>=20.9 in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from huggingface_hub->timm) (26.0)
+Collecting tqdm>=4.42.1 (from huggingface_hub->timm)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/16/e1/3079a9ff9b8e11b846c6ac5c8b5bfb7ff225eee721825310c91b3b50304f/tqdm-4.67.3-py3-none-any.whl (78 kB)
+Collecting typer (from huggingface_hub->timm)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/4a/91/48db081e7a63bb37284f9fbcefda7c44c277b18b0e13fbc36ea2335b71e6/typer-0.24.1-py3-none-any.whl (56 kB)
+Requirement already satisfied: typing-extensions>=4.1.0 in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from huggingface_hub->timm) (4.15.0)
+Collecting anyio (from httpx<1,>=0.23.0->huggingface_hub->timm)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/38/0e/27be9fdef66e72d64c0cdc3cc2823101b80585f8119b5c112c2e8f5f7dab/anyio-4.12.1-py3-none-any.whl (113 kB)
+Requirement already satisfied: certifi in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from httpx<1,>=0.23.0->huggingface_hub->timm) (2026.2.25)
+Collecting httpcore==1.* (from httpx<1,>=0.23.0->huggingface_hub->timm)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/7e/f5/f66802a942d491edb555dd61e3a9961140fd64c90bce1eafd741609d334d/httpcore-1.0.9-py3-none-any.whl (78 kB)
+Requirement already satisfied: idna in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from httpx<1,>=0.23.0->huggingface_hub->timm) (3.11)
+Collecting h11>=0.16 (from httpcore==1.*->httpx<1,>=0.23.0->huggingface_hub->timm)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/04/4b/29cac41a4d98d144bf5f6d33995617b185d14b22401f75ca86f384e87ff1/h11-0.16.0-py3-none-any.whl (37 kB)
+Collecting exceptiongroup>=1.0.2 (from anyio->httpx<1,>=0.23.0->huggingface_hub->timm)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/8a/0e/97c33bf5009bdbac74fd2beace167cab3f978feb69cc36f1ef79360d6c4e/exceptiongroup-1.3.1-py3-none-any.whl (16 kB)
+Requirement already satisfied: sympy>=1.13.3 in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from torch->timm) (1.14.0)
+Requirement already satisfied: networkx in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from torch->timm) (3.4.2)
+Requirement already satisfied: jinja2 in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from torch->timm) (3.1.6)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu11==11.8.89 in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from torch->timm) (11.8.89)
+Requirement already satisfied: nvidia-cuda-runtime-cu11==11.8.89 in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from torch->timm) (11.8.89)
+Requirement already satisfied: nvidia-cuda-cupti-cu11==11.8.87 in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from torch->timm) (11.8.87)
+Requirement already satisfied: nvidia-cudnn-cu11==9.1.0.70 in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from torch->timm) (9.1.0.70)
+Requirement already satisfied: nvidia-cublas-cu11==11.11.3.6 in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from torch->timm) (11.11.3.6)
+Requirement already satisfied: nvidia-cufft-cu11==10.9.0.58 in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from torch->timm) (10.9.0.58)
+Requirement already satisfied: nvidia-curand-cu11==10.3.0.86 in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from torch->timm) (10.3.0.86)
+Requirement already satisfied: nvidia-cusolver-cu11==11.4.1.48 in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from torch->timm) (11.4.1.48)
+Requirement already satisfied: nvidia-cusparse-cu11==11.7.5.86 in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from torch->timm) (11.7.5.86)
+Requirement already satisfied: nvidia-nccl-cu11==2.21.5 in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from torch->timm) (2.21.5)
+Requirement already satisfied: nvidia-nvtx-cu11==11.8.86 in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from torch->timm) (11.8.86)
+Requirement already satisfied: triton==3.3.1 in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from torch->timm) (3.3.1)
+Requirement already satisfied: setuptools>=40.8.0 in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from triton==3.3.1->torch->timm) (82.0.0)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from sympy>=1.13.3->torch->timm) (1.3.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from jinja2->torch->timm) (3.0.2)
+Requirement already satisfied: numpy in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from torchvision->timm) (2.2.6)
+Requirement already satisfied: pillow!=8.3.*,>=5.3.0 in /home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages (from torchvision->timm) (12.1.1)
+Collecting click>=8.2.1 (from typer->huggingface_hub->timm)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/98/78/01c019cdb5d6498122777c1a43056ebb3ebfeef2076d9d026bfe15583b2b/click-8.3.1-py3-none-any.whl (108 kB)
+Collecting shellingham>=1.3.0 (from typer->huggingface_hub->timm)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/e0/f9/0595336914c5619e5f28a1fb793285925a8cd4b432c9da0a987836c7f822/shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Collecting rich>=12.3.0 (from typer->huggingface_hub->timm)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/14/25/b208c5683343959b670dc001595f2f3737e051da617f66c31f7c4fa93abc/rich-14.3.3-py3-none-any.whl (310 kB)
+Collecting annotated-doc>=0.0.2 (from typer->huggingface_hub->timm)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/1e/d3/26bf1008eb3d2daa8ef4cacc7f3bfdc11818d111f7e2d0201bc6e3b49d45/annotated_doc-0.0.4-py3-none-any.whl (5.3 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=12.3.0->typer->huggingface_hub->timm)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/94/54/e7d793b573f298e1c9013b8c4dade17d481164aa517d1d7148619c2cedbf/markdown_it_py-4.0.0-py3-none-any.whl (87 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=12.3.0->typer->huggingface_hub->timm)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c7/21/705964c7812476f378728bdf590ca4b771ec72385c533964653c68e86bdc/pygments-2.19.2-py3-none-any.whl (1.2 MB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=12.3.0->typer->huggingface_hub->timm)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Building wheels for collected packages: efficientnet-pytorch
+  Building wheel for efficientnet-pytorch (pyproject.toml): started
+  Building wheel for efficientnet-pytorch (pyproject.toml): finished with status 'done'
+  Created wheel for efficientnet-pytorch: filename=efficientnet_pytorch-0.7.1-py3-none-any.whl size=16478 sha256=0f7348416f9b5175f674d6c403465e0e424b5a10fda5991806e2ee0cf1d56166
+  Stored in directory: /home/user/.cache/pip/wheels/72/a6/ed/0856d33f27118dea059731c7fe979baaac9b15610619792bee
+Successfully built efficientnet-pytorch
+Installing collected packages: tqdm, shellingham, safetensors, pygments, mdurl, hf-xet, h11, exceptiongroup, click, annotated-doc, markdown-it-py, httpcore, anyio, rich, httpx, efficientnet-pytorch, typer, huggingface_hub, timm
+
+Successfully installed annotated-doc-0.0.4 anyio-4.12.1 click-8.3.1 efficientnet-pytorch-0.7.1 exceptiongroup-1.3.1 h11-0.16.0 hf-xet-1.3.2 httpcore-1.0.9 httpx-0.28.1 huggingface_hub-1.6.0 markdown-it-py-4.0.0 mdurl-0.1.2 pygments-2.19.2 rich-14.3.3 safetensors-0.7.0 shellingham-1.5.4 timm-1.0.25 tqdm-4.67.3 typer-0.24.1
