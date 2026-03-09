@@ -1,0 +1,1347 @@
+running install
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running bdist_egg
+running egg_info
+creating DCNv4.egg-info
+writing DCNv4.egg-info/PKG-INFO
+writing dependency_links to DCNv4.egg-info/dependency_links.txt
+writing top-level names to DCNv4.egg-info/top_level.txt
+writing manifest file 'DCNv4.egg-info/SOURCES.txt'
+reading manifest file 'DCNv4.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'DCNv4.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-x86_64-cpython-310
+creating build/lib.linux-x86_64-cpython-310/DCNv4
+copying DCNv4/__init__.py -> build/lib.linux-x86_64-cpython-310/DCNv4
+creating build/lib.linux-x86_64-cpython-310/DCNv4/functions
+copying DCNv4/functions/flash_deform_attn_func.py -> build/lib.linux-x86_64-cpython-310/DCNv4/functions
+copying DCNv4/functions/__init__.py -> build/lib.linux-x86_64-cpython-310/DCNv4/functions
+copying DCNv4/functions/table.py -> build/lib.linux-x86_64-cpython-310/DCNv4/functions
+copying DCNv4/functions/dcnv4_func.py -> build/lib.linux-x86_64-cpython-310/DCNv4/functions
+creating build/lib.linux-x86_64-cpython-310/DCNv4/modules
+copying DCNv4/modules/flash_deform_attn.py -> build/lib.linux-x86_64-cpython-310/DCNv4/modules
+copying DCNv4/modules/__init__.py -> build/lib.linux-x86_64-cpython-310/DCNv4/modules
+copying DCNv4/modules/dcnv4.py -> build/lib.linux-x86_64-cpython-310/DCNv4/modules
+running build_ext
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/utils/cpp_extension.py:480: UserWarning: The detected CUDA version (11.1) has a minor version mismatch with the version that was used to compile PyTorch (11.8). Most likely this shouldn't be a problem.
+  warnings.warn(CUDA_MISMATCH_WARN.format(cuda_str_version, torch.version.cuda))
+building 'DCNv4.ext' extension
+creating /home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/build/temp.linux-x86_64-cpython-310
+creating /home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/build/temp.linux-x86_64-cpython-310/home
+creating /home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/build/temp.linux-x86_64-cpython-310/home/user
+creating /home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/build/temp.linux-x86_64-cpython-310/home/user/4T_Storage
+creating /home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/build/temp.linux-x86_64-cpython-310/home/user/4T_Storage/SJY
+creating /home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/build/temp.linux-x86_64-cpython-310/home/user/4T_Storage/SJY/SAR
+creating /home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/build/temp.linux-x86_64-cpython-310/home/user/4T_Storage/SJY/SAR/MHFNet
+creating /home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/build/temp.linux-x86_64-cpython-310/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main
+creating /home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/build/temp.linux-x86_64-cpython-310/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op
+creating /home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/build/temp.linux-x86_64-cpython-310/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src
+creating /home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/build/temp.linux-x86_64-cpython-310/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2356: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
+  warnings.warn(
+Emitting ninja build file /home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/build/temp.linux-x86_64-cpython-310/build.ninja...
+Compiling objects...
+Using envvar MAX_JOBS (1) as the number of workers...
+[1/3] /usr/local/cuda/bin/nvcc --generate-dependencies-with-compile --dependency-output /home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/build/temp.linux-x86_64-cpython-310/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.o.d -DWITH_CUDA -I/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src -I/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include -I/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/usr/local/cuda/include -I/home/user/anaconda3/envs/sjyMHFNet/include/python3.10 -c -c /home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu -o /home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/build/temp.linux-x86_64-cpython-310/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options ''"'"'-fPIC'"'"'' -std=c++17 -DCUDA_HAS_FP16=1 -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ -O3 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1016"' -DTORCH_EXTENSION_NAME=ext -D_GLIBCXX_USE_CXX11_ABI=1 -gencode=arch=compute_86,code=compute_86 -gencode=arch=compute_86,code=sm_86
+FAILED: [code=1] /home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/build/temp.linux-x86_64-cpython-310/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.o 
+/usr/local/cuda/bin/nvcc --generate-dependencies-with-compile --dependency-output /home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/build/temp.linux-x86_64-cpython-310/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.o.d -DWITH_CUDA -I/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src -I/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include -I/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/usr/local/cuda/include -I/home/user/anaconda3/envs/sjyMHFNet/include/python3.10 -c -c /home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu -o /home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/build/temp.linux-x86_64-cpython-310/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options ''"'"'-fPIC'"'"'' -std=c++17 -DCUDA_HAS_FP16=1 -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ -O3 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1016"' -DTORCH_EXTENSION_NAME=ext -D_GLIBCXX_USE_CXX11_ABI=1 -gencode=arch=compute_86,code=compute_86 -gencode=arch=compute_86,code=sm_86
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h(1121): warning: missing return statement at end of non-void function "torch::dynamo::autograd::IValuePacker<T>::packed_type [with T=int64_t]"
+          detected during instantiation of "c10::TypePtr torch::dynamo::autograd::IValuePacker<T>::packed_type() [with T=int64_t]" 
+(1144): here
+
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h(1121): warning: missing return statement at end of non-void function "torch::dynamo::autograd::IValuePacker<T>::packed_type [with T=c10::ScalarType]"
+          detected during instantiation of "c10::TypePtr torch::dynamo::autograd::IValuePacker<T>::packed_type() [with T=c10::ScalarType]" 
+(1204): here
+
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh(263): warning: variable "L" was declared but never referenced
+          detected during instantiation of "void dcnv4_im2col_cuda(cudaStream_t, const scalar_t *, const scalar_t *, scalar_t *, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, __nv_bool, int) [with scalar_t=c10::impl::ScalarTypeToCPPTypeT<c10::ScalarType::Double>]" 
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu(73): here
+
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh(267): warning: variable "N" was declared but never referenced
+          detected during instantiation of "void dcnv4_im2col_cuda(cudaStream_t, const scalar_t *, const scalar_t *, scalar_t *, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, __nv_bool, int) [with scalar_t=c10::impl::ScalarTypeToCPPTypeT<c10::ScalarType::Double>]" 
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu(73): here
+
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh(158): warning: variable "li" was declared but never referenced
+          detected during:
+            instantiation of "void _dcnv4_im2col_cuda<scalar_t,stride_type,d_stride>(cudaStream_t, const scalar_t *, const scalar_t *, scalar_t *, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t=c10::impl::ScalarTypeToCPPTypeT<c10::ScalarType::Double>, stride_type=c10::impl::ScalarTypeToCPPTypeT<c10::ScalarType::Double>, d_stride=1]" 
+(349): here
+            instantiation of "void dcnv4_im2col_cuda(cudaStream_t, const scalar_t *, const scalar_t *, scalar_t *, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, __nv_bool, int) [with scalar_t=c10::impl::ScalarTypeToCPPTypeT<c10::ScalarType::Double>]" 
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu(73): here
+
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh(167): warning: variable "remainder" was declared but never referenced
+          detected during:
+            instantiation of "void _dcnv4_im2col_cuda<scalar_t,stride_type,d_stride>(cudaStream_t, const scalar_t *, const scalar_t *, scalar_t *, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t=c10::impl::ScalarTypeToCPPTypeT<c10::ScalarType::Double>, stride_type=c10::impl::ScalarTypeToCPPTypeT<c10::ScalarType::Double>, d_stride=1]" 
+(349): here
+            instantiation of "void dcnv4_im2col_cuda(cudaStream_t, const scalar_t *, const scalar_t *, scalar_t *, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, __nv_bool, int) [with scalar_t=c10::impl::ScalarTypeToCPPTypeT<c10::ScalarType::Double>]" 
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu(73): here
+
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh(382): warning: variable "L" was declared but never referenced
+          detected during instantiation of "void dcnv4_col2im_cuda(cudaStream_t, const scalar_t *, const scalar_t *, const scalar_t *, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t> *, at::opmath_type<scalar_t> *, int, int, __nv_bool, int) [with scalar_t=c10::impl::ScalarTypeToCPPTypeT<c10::ScalarType::Double>]" 
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu(149): here
+
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh(387): warning: variable "N" was declared but never referenced
+          detected during instantiation of "void dcnv4_col2im_cuda(cudaStream_t, const scalar_t *, const scalar_t *, const scalar_t *, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t> *, at::opmath_type<scalar_t> *, int, int, __nv_bool, int) [with scalar_t=c10::impl::ScalarTypeToCPPTypeT<c10::ScalarType::Double>]" 
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu(149): here
+
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh(217): warning: variable "li" was declared but never referenced
+          detected during:
+            instantiation of "void _dcnv4_col2im_cuda<scalar_t,stride_type,d_stride>(cudaStream_t, const scalar_t *, const scalar_t *, const scalar_t *, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t> *, at::opmath_type<scalar_t> *, int, __nv_bool, int) [with scalar_t=c10::impl::ScalarTypeToCPPTypeT<c10::ScalarType::Double>, stride_type=c10::impl::ScalarTypeToCPPTypeT<c10::ScalarType::Double>, d_stride=1]" 
+(497): here
+            instantiation of "void dcnv4_col2im_cuda(cudaStream_t, const scalar_t *, const scalar_t *, const scalar_t *, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t> *, at::opmath_type<scalar_t> *, int, int, __nv_bool, int) [with scalar_t=c10::impl::ScalarTypeToCPPTypeT<c10::ScalarType::Double>]" 
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu(149): here
+
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh(220): warning: variable "lane_id" was declared but never referenced
+          detected during:
+            instantiation of "void _dcnv4_col2im_cuda<scalar_t,stride_type,d_stride>(cudaStream_t, const scalar_t *, const scalar_t *, const scalar_t *, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t> *, at::opmath_type<scalar_t> *, int, __nv_bool, int) [with scalar_t=c10::impl::ScalarTypeToCPPTypeT<c10::ScalarType::Double>, stride_type=c10::impl::ScalarTypeToCPPTypeT<c10::ScalarType::Double>, d_stride=1]" 
+(497): here
+            instantiation of "void dcnv4_col2im_cuda(cudaStream_t, const scalar_t *, const scalar_t *, const scalar_t *, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t> *, at::opmath_type<scalar_t> *, int, int, __nv_bool, int) [with scalar_t=c10::impl::ScalarTypeToCPPTypeT<c10::ScalarType::Double>]" 
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu(149): here
+
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh(303): warning: variable "cache_grad_off_idx" was declared but never referenced
+          detected during:
+            instantiation of "void _dcnv4_col2im_cuda<scalar_t,stride_type,d_stride>(cudaStream_t, const scalar_t *, const scalar_t *, const scalar_t *, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t> *, at::opmath_type<scalar_t> *, int, __nv_bool, int) [with scalar_t=c10::impl::ScalarTypeToCPPTypeT<c10::ScalarType::Double>, stride_type=c10::impl::ScalarTypeToCPPTypeT<c10::ScalarType::Double>, d_stride=1]" 
+(497): here
+            instantiation of "void dcnv4_col2im_cuda(cudaStream_t, const scalar_t *, const scalar_t *, const scalar_t *, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t> *, at::opmath_type<scalar_t> *, int, int, __nv_bool, int) [with scalar_t=c10::impl::ScalarTypeToCPPTypeT<c10::ScalarType::Double>]" 
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu(149): here
+
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh(39): warning: variable "li" was declared but never referenced
+          detected during:
+            instantiation of "void _dcnv4_col2im_cuda<scalar_t,stride_type,d_stride>(cudaStream_t, const scalar_t *, const scalar_t *, const scalar_t *, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t> *, at::opmath_type<scalar_t> *, int, __nv_bool, int) [with scalar_t=c10::impl::ScalarTypeToCPPTypeT<c10::ScalarType::Double>, stride_type=c10::impl::ScalarTypeToCPPTypeT<c10::ScalarType::Double>, d_stride=1]" 
+(497): here
+            instantiation of "void dcnv4_col2im_cuda(cudaStream_t, const scalar_t *, const scalar_t *, const scalar_t *, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t> *, at::opmath_type<scalar_t> *, int, int, __nv_bool, int) [with scalar_t=c10::impl::ScalarTypeToCPPTypeT<c10::ScalarType::Double>]" 
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu(149): here
+
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/TypeList.h: In static member function ‘static auto c10::guts::typelist::detail::map_types_to_values<c10::guts::typelist::typelist<Types ...> >::call(Func&&)’:
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/TypeList.h:504:8: error: ‘tuple’ was not declared in this scope; did you mean ‘std::tuple’?
+  504 |     return std::tuple{std::forward<Func>(func)(type_<Types>())...};
+      |        ^~~~~
+      |        std::tuple
+/usr/include/c++/9/type_traits:2461:37: note: ‘std::tuple’ declared here
+ 2461 |   template<typename... _Elements>
+      |                                     ^    
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/TypeList.h:504:13: error: expected ‘;’ before ‘{’ token
+  504 |     return std::tuple{std::forward<Func>(func)(type_<Types>())...};
+      |             ^
+      |             ;
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/TypeList.h:504:58: error: expected ‘;’ before ‘...’ token
+  504 |     return std::tuple{std::forward<Func>(func)(type_<Types>())...};
+      |                                                          ^~~
+      |                                                          ;
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/TypeList.h:504:40: error: parameter packs not expanded with ‘...’:
+  504 |     return std::tuple{std::forward<Func>(func)(type_<Types>())...};
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/TypeList.h:504:40: note:         ‘Types’
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/torch/csrc/jit/api/module.h: In constructor ‘torch::jit::slot_iterator_impl<Policy>::slot_iterator_impl(torch::jit::Module, bool, bool)’:
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/torch/csrc/jit/api/module.h:411:113: error: use of deleted function ‘torch::jit::Module::Module(torch::jit::Module&&)’
+  411 |       bool return_module) // if true include root itself as the first thing
+      |                                                                                                                 ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/torch/csrc/jit/api/module.h:93:1: note: declared here
+   93 |   Module(Module&&) noexcept = default;
+      | ^ ~~~~
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h: At global scope:
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:129:1: warning: attribute ignored [-Wattributes]
+  129 |   [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:129:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:131:1: warning: attribute ignored [-Wattributes]
+  131 |   [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:131:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:133:1: warning: attribute ignored [-Wattributes]
+  133 |   [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:133:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:210:1: warning: attribute ignored [-Wattributes]
+  210 |   [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:210:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:223:1: warning: attribute ignored [-Wattributes]
+  223 |   [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:223:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:246:1: warning: attribute ignored [-Wattributes]
+  246 |     [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:246:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:255:1: warning: attribute ignored [-Wattributes]
+  255 |     [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:255:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:264:1: warning: attribute ignored [-Wattributes]
+  264 |     [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:264:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:273:1: warning: attribute ignored [-Wattributes]
+  273 |     [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:273:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:302:1: warning: attribute ignored [-Wattributes]
+  302 |     [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:302:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:311:1: warning: attribute ignored [-Wattributes]
+  311 |     [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:311:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:321:1: warning: attribute ignored [-Wattributes]
+  321 |     [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:321:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:330:1: warning: attribute ignored [-Wattributes]
+  330 |     [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:330:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:340:1: warning: attribute ignored [-Wattributes]
+  340 |     [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:340:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:349:1: warning: attribute ignored [-Wattributes]
+  349 |     [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:349:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:359:1: warning: attribute ignored [-Wattributes]
+  359 |     [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:359:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:368:1: warning: attribute ignored [-Wattributes]
+  368 |     [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:368:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:482:1: warning: attribute ignored [-Wattributes]
+  482 |   [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:482:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:495:1: warning: attribute ignored [-Wattributes]
+  495 |   [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:495:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:508:1: warning: attribute ignored [-Wattributes]
+  508 |   [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:508:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:521:1: warning: attribute ignored [-Wattributes]
+  521 |   [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:521:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:824:1: warning: attribute ignored [-Wattributes]
+  824 |   [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:824:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:859:1: warning: attribute ignored [-Wattributes]
+  859 |   [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:859:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:870:1: warning: attribute ignored [-Wattributes]
+  870 |   [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:870:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:881:1: warning: attribute ignored [-Wattributes]
+  881 |   [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:881:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:906:1: warning: attribute ignored [-Wattributes]
+  906 |   [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:906:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:920:1: warning: attribute ignored [-Wattributes]
+  920 |   [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:920:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:934:1: warning: attribute ignored [-Wattributes]
+  934 |   [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:934:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:948:1: warning: attribute ignored [-Wattributes]
+  948 |   [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:948:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:982:1: warning: attribute ignored [-Wattributes]
+  982 |     [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:982:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:1053:1: warning: attribute ignored [-Wattributes]
+ 1053 |     [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:1053:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:1065:1: warning: attribute ignored [-Wattributes]
+ 1065 |     [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:1065:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:1077:1: warning: attribute ignored [-Wattributes]
+ 1077 |     [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:1077:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:1089:1: warning: attribute ignored [-Wattributes]
+ 1089 |     [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:1089:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:1102:1: warning: attribute ignored [-Wattributes]
+ 1102 |     [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:1102:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:1186:1: warning: attribute ignored [-Wattributes]
+ 1186 |     [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:1186:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:1198:1: warning: attribute ignored [-Wattributes]
+ 1198 |     [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:1198:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:1210:1: warning: attribute ignored [-Wattributes]
+ 1210 |     [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:1210:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:1222:1: warning: attribute ignored [-Wattributes]
+ 1222 |     [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:1222:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:1235:1: warning: attribute ignored [-Wattributes]
+ 1235 |     [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:1235:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:1248:1: warning: attribute ignored [-Wattributes]
+ 1248 |     [[nodiscard]]
+      | ^
+/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/include/c10/util/strong_type.h:1248:1: note: an attribute that appertains to a type-specifier is ignored
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = double; stride_type = double; int d_stride = 1; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:345:44:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = double; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:1366:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = double; stride_type = unsigned int; int d_stride = 2; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:352:40:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = double; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:1366:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = double; stride_type = uint2; int d_stride = 4; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:359:41:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = double; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:1366:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = double; stride_type = uint4; int d_stride = 8; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:366:41:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = double; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:1366:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = double; stride_type = ulonglong4; int d_stride = 16; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:373:47:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = double; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:1366:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = double; stride_type = unsigned int; int d_stride = 1; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:384:40:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = double; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:1366:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = double; stride_type = uint2; int d_stride = 2; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:391:41:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = double; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:1366:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = double; stride_type = uint4; int d_stride = 4; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:398:41:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = double; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:1366:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = double; stride_type = ulonglong4; int d_stride = 8; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:405:46:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = double; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:1366:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = float; stride_type = float; int d_stride = 1; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:345:44:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = float; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:2547:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = float; stride_type = unsigned int; int d_stride = 2; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:352:40:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = float; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:2547:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = float; stride_type = uint2; int d_stride = 4; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:359:41:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = float; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:2547:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = float; stride_type = uint4; int d_stride = 8; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:366:41:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = float; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:2547:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = float; stride_type = ulonglong4; int d_stride = 16; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:373:47:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = float; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:2547:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = float; stride_type = unsigned int; int d_stride = 1; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:384:40:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = float; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:2547:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = float; stride_type = uint2; int d_stride = 2; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:391:41:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = float; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:2547:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = float; stride_type = uint4; int d_stride = 4; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:398:41:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = float; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:2547:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = float; stride_type = ulonglong4; int d_stride = 8; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:405:46:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = float; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:2547:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = c10::Half; stride_type = c10::Half; int d_stride = 1; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:345:44:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = c10::Half; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:3736:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = c10::Half; stride_type = unsigned int; int d_stride = 2; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:352:40:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = c10::Half; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:3736:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = c10::Half; stride_type = uint2; int d_stride = 4; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:359:41:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = c10::Half; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:3736:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = c10::Half; stride_type = uint4; int d_stride = 8; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:366:41:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = c10::Half; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:3736:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = c10::Half; stride_type = ulonglong4; int d_stride = 16; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:373:47:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = c10::Half; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:3736:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = c10::Half; stride_type = unsigned int; int d_stride = 1; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:384:40:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = c10::Half; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:3736:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = c10::Half; stride_type = uint2; int d_stride = 2; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:391:41:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = c10::Half; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:3736:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = c10::Half; stride_type = uint4; int d_stride = 4; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:398:41:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = c10::Half; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:3736:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = c10::Half; stride_type = ulonglong4; int d_stride = 8; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:405:46:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = c10::Half; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:3736:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = c10::BFloat16; stride_type = c10::BFloat16; int d_stride = 1; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:345:44:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = c10::BFloat16; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:0:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = c10::BFloat16; stride_type = unsigned int; int d_stride = 2; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:352:40:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = c10::BFloat16; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:0:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = c10::BFloat16; stride_type = uint2; int d_stride = 4; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:359:41:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = c10::BFloat16; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:0:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = c10::BFloat16; stride_type = uint4; int d_stride = 8; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:366:41:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = c10::BFloat16; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:0:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = c10::BFloat16; stride_type = ulonglong4; int d_stride = 16; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:373:47:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = c10::BFloat16; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:0:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = c10::BFloat16; stride_type = unsigned int; int d_stride = 1; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:384:40:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = c10::BFloat16; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:0:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = c10::BFloat16; stride_type = uint2; int d_stride = 2; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:391:41:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = c10::BFloat16; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:0:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = c10::BFloat16; stride_type = uint4; int d_stride = 4; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:398:41:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = c10::BFloat16; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:0:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh: In instantiation of ‘void _dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, int) [with scalar_t = c10::BFloat16; stride_type = ulonglong4; int d_stride = 8; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:405:46:   required from ‘void dcnv4_im2col_cuda(cudaStream_t, const scalar_t*, const scalar_t*, scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, int, int, bool, int) [with scalar_t = c10::BFloat16; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:73:0:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:283:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  283 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_im2col_cuda.cuh:295:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  295 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = double; stride_type = double; int d_stride = 1; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:493:44:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = double; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:1524:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = double; stride_type = unsigned int; int d_stride = 2; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:500:40:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = double; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:1524:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = double; stride_type = uint2; int d_stride = 4; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:507:41:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = double; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:1524:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = double; stride_type = uint4; int d_stride = 8; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:514:41:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = double; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:1524:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = double; stride_type = ulonglong4; int d_stride = 16; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:521:47:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = double; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:1524:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = double; stride_type = unsigned int; int d_stride = 1; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:532:40:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = double; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:1524:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = double; stride_type = uint2; int d_stride = 2; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:539:41:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = double; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:1524:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = double; stride_type = uint4; int d_stride = 4; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:546:41:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = double; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:1524:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = double; stride_type = ulonglong4; int d_stride = 8; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:553:46:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = double; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = double]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:1524:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = float; stride_type = float; int d_stride = 1; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:493:44:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = float; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:2860:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = float; stride_type = unsigned int; int d_stride = 2; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:500:40:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = float; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:2860:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = float; stride_type = uint2; int d_stride = 4; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:507:41:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = float; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:2860:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = float; stride_type = uint4; int d_stride = 8; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:514:41:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = float; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:2860:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = float; stride_type = ulonglong4; int d_stride = 16; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:521:47:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = float; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:2860:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = float; stride_type = unsigned int; int d_stride = 1; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:532:40:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = float; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:2860:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = float; stride_type = uint2; int d_stride = 2; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:539:41:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = float; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:2860:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = float; stride_type = uint4; int d_stride = 4; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:546:41:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = float; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:2860:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = float; stride_type = ulonglong4; int d_stride = 8; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:553:46:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = float; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:2860:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = c10::Half; stride_type = c10::Half; int d_stride = 1; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:493:44:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = c10::Half; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:0:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = c10::Half; stride_type = unsigned int; int d_stride = 2; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:500:40:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = c10::Half; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:0:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = c10::Half; stride_type = uint2; int d_stride = 4; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:507:41:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = c10::Half; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:0:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = c10::Half; stride_type = uint4; int d_stride = 8; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:514:41:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = c10::Half; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:0:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = c10::Half; stride_type = ulonglong4; int d_stride = 16; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:521:47:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = c10::Half; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:0:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = c10::Half; stride_type = unsigned int; int d_stride = 1; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:532:40:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = c10::Half; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:0:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = c10::Half; stride_type = uint2; int d_stride = 2; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:539:41:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = c10::Half; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:0:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = c10::Half; stride_type = uint4; int d_stride = 4; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:546:41:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = c10::Half; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:0:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = c10::Half; stride_type = ulonglong4; int d_stride = 8; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:553:46:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = c10::Half; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:0:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = c10::BFloat16; stride_type = c10::BFloat16; int d_stride = 1; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:493:44:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = c10::BFloat16; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:0:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = c10::BFloat16; stride_type = unsigned int; int d_stride = 2; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:500:40:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = c10::BFloat16; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:0:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = c10::BFloat16; stride_type = uint2; int d_stride = 4; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:507:41:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = c10::BFloat16; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:0:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = c10::BFloat16; stride_type = uint4; int d_stride = 8; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:514:41:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = c10::BFloat16; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:0:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = c10::BFloat16; stride_type = ulonglong4; int d_stride = 16; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:521:47:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = c10::BFloat16; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:0:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = c10::BFloat16; stride_type = unsigned int; int d_stride = 1; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:532:40:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = c10::BFloat16; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:0:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = c10::BFloat16; stride_type = uint2; int d_stride = 2; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:539:41:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = c10::BFloat16; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:0:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = c10::BFloat16; stride_type = uint4; int d_stride = 4; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:546:41:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = c10::BFloat16; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:0:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh: In instantiation of ‘void _dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, bool, int) [with scalar_t = c10::BFloat16; stride_type = ulonglong4; int d_stride = 8; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’:
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:553:46:   required from ‘void dcnv4_col2im_cuda(cudaStream_t, const scalar_t*, const scalar_t*, const scalar_t*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, at::opmath_type<scalar_t>, int, at::opmath_type<scalar_t>*, at::opmath_type<scalar_t>*, int, int, bool, int) [with scalar_t = c10::BFloat16; cudaStream_t = CUstream_st*; at::opmath_type<scalar_t> = float]’
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_cuda.cu:149:0:   required from here
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:414:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  414 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/src/cuda/dcnv4_col2im_cuda.cuh:436:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  436 |       printf("K=%ld\n", K);
+      |        ^~~~~~~~~  ~
+      |                   |
+      |                   int
+ninja: build stopped: subcommand failed.
+Traceback (most recent call last):
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/utils/cpp_extension.py", line 2506, in _run_ninja_build
+    subprocess.run(
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['ninja', '-v', '-j', '1']' returned non-zero exit status 1.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/user/4T_Storage/SJY/SAR/MHFNet/DCNv4-main/DCNv4_op/setup.py", line 65, in <module>
+    setup(
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/__init__.py", line 104, in setup
+    return distutils.core.setup(**attrs)
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 184, in setup
+    return run_commands(dist)
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 200, in run_commands
+    dist.run_commands()
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 969, in run_commands
+    self.run_command(cmd)
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/dist.py", line 967, in run_command
+    super().run_command(command)
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 988, in run_command
+    cmd_obj.run()
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/command/install.py", line 87, in run
+    self.do_egg_install()
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/command/install.py", line 139, in do_egg_install
+    self.run_command('bdist_egg')
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/_distutils/cmd.py", line 316, in run_command
+    self.distribution.run_command(command)
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/dist.py", line 967, in run_command
+    super().run_command(command)
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 988, in run_command
+    cmd_obj.run()
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/command/bdist_egg.py", line 167, in run
+    cmd = self.call_command('install_lib', warn_dir=0)
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/command/bdist_egg.py", line 153, in call_command
+    self.run_command(cmdname)
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/_distutils/cmd.py", line 316, in run_command
+    self.distribution.run_command(command)
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/dist.py", line 967, in run_command
+    super().run_command(command)
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 988, in run_command
+    cmd_obj.run()
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/command/install_lib.py", line 11, in run
+    self.build()
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/_distutils/command/install_lib.py", line 110, in build
+    self.run_command('build_ext')
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/_distutils/cmd.py", line 316, in run_command
+    self.distribution.run_command(command)
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/dist.py", line 967, in run_command
+    super().run_command(command)
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 988, in run_command
+    cmd_obj.run()
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/command/build_ext.py", line 91, in run
+    _build_ext.run(self)
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/_distutils/command/build_ext.py", line 359, in run
+    self.build_extensions()
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/utils/cpp_extension.py", line 1010, in build_extensions
+    build_ext.build_extensions(self)
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/_distutils/command/build_ext.py", line 479, in build_extensions
+    self._build_extensions_serial()
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/_distutils/command/build_ext.py", line 505, in _build_extensions_serial
+    self.build_extension(ext)
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/command/build_ext.py", line 252, in build_extension
+    _build_ext.build_extension(self, ext)
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/setuptools/_distutils/command/build_ext.py", line 560, in build_extension
+    objects = self.compiler.compile(
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/utils/cpp_extension.py", line 815, in unix_wrap_ninja_compile
+    _write_ninja_file_and_compile_objects(
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/utils/cpp_extension.py", line 2159, in _write_ninja_file_and_compile_objects
+    _run_ninja_build(
+  File "/home/user/anaconda3/envs/sjyMHFNet/lib/python3.10/site-packages/torch/utils/cpp_extension.py", line 2522, in _run_ninja_build
+    raise RuntimeError(message) from e
+RuntimeError: Error compiling objects for extension
