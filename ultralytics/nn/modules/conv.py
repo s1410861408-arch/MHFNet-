@@ -523,7 +523,9 @@ class DCN(nn.Module):
     def __init__(self, c, k=3, s=1, p=None, d=1, gc=8, dk=3, act=True):
         super().__init__()
         assert k == 3
-        self.conv = DCNv4(c, k, s, autopad(k, p, d), group=c // gc, dw_kernel_size=dk, without_pointwise=False,
+        # self.conv = DCNv4(c, k, s, autopad(k, p, d), group=c // gc, dw_kernel_size=dk, without_pointwise=False,
+        #                   output_bias=False)
+        self.conv = DCNv4(c, k, s, autopad(k, p, d), group=c // 16, dw_kernel_size=dk, without_pointwise=False,
                           output_bias=False)
 
     def forward(self, x):
