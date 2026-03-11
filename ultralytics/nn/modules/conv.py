@@ -528,6 +528,18 @@ class DCN(nn.Module):
         self.conv = DCNv4(c, k, s, autopad(k, p, d), group=c // 16, dw_kernel_size=dk, without_pointwise=False,
                           output_bias=False)
 
+    # def forward(self, x):
+    #     """Apply convolution, batch normalization and activation to input tensor."""
+    #     return self.conv(x)
     def forward(self, x):
-        """Apply convolution, batch normalization and activation to input tensor."""
-        return self.conv(x)
+        # 1. 獲取 YOLOv8 傳進來的 4D 維度 (N, C, H, W)
+        N, C, H, W = x.shape
+        
+        # 2. 轉換為 DCNv4 需要的 3D 序列格式 (N, H*W, C)
+        x_in = x.flatten(2).transpose(1, 2)
+        
+        # 3. 傳入 DCNv4 進行運算 (必須順便告訴它 H 和 W)
+        x_out = self.conv(x_in, shape=(H, W))
+        
+        # 4. 將 DCNv4 輸出的 3D 序列還原回 4D 影像格式 (N, C, H, W)
+        return x_out.transpose(1, 2).view(N, -1, H, W)
