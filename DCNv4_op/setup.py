@@ -1,8 +1,10 @@
-# --------------------------------------------------------
-# DCNv4
+# ------------------------------------------------------------------------------------------------
+# Deformable Convolution v4
 # Copyright (c) 2024 OpenGVLab
-# Licensed under The MIT License [see LICENSE for details]
-# --------------------------------------------------------
+# Licensed under the Apache License, Version 2.0 [see LICENSE for details]
+# ------------------------------------------------------------------------------------------------
+# Modified from https://github.com/chengdazhi/Deformable-Convolution-V2-PyTorch/tree/pytorch_1.0.0
+# ------------------------------------------------------------------------------------------------
 
 import os
 import glob
@@ -17,7 +19,6 @@ from setuptools import find_packages
 from setuptools import setup
 
 requirements = ["torch", "torchvision"]
-
 
 def get_extensions():
     this_dir = os.path.dirname(os.path.abspath(__file__))
@@ -37,19 +38,20 @@ def get_extensions():
         sources += source_cuda
         define_macros += [("WITH_CUDA", None)]
         extra_compile_args["nvcc"] = [
-            # "-DCUDA_HAS_FP16=1",
-            # "-D__CUDA_NO_HALF_OPERATORS__",
-            # "-D__CUDA_NO_HALF_CONVERSIONS__",
-            # "-D__CUDA_NO_HALF2_OPERATORS__",
+            "-DCUDA_HAS_FP16=1",
+            "-D__CUDA_NO_HALF_OPERATORS__",
+            "-D__CUDA_NO_HALF_CONVERSIONS__",
+            "-D__CUDA_NO_HALF2_OPERATORS__",
+            "-O3",
         ]
     else:
-        raise NotImplementedError('Cuda is not availabel')
+        raise NotImplementedError('Cuda is not available')
 
     sources = [os.path.join(extensions_dir, s) for s in sources]
     include_dirs = [extensions_dir]
     ext_modules = [
         extension(
-            "DCNv3",
+            "DCNv4.ext",
             sources,
             include_dirs=include_dirs,
             define_macros=define_macros,
@@ -58,18 +60,13 @@ def get_extensions():
     ]
     return ext_modules
 
-
 setup(
-    name="DCNv3",
-    version="1.0",
-    author="InternImage",
-    url="https://github.com/OpenGVLab/InternImage",
-    description=
-    "PyTorch Wrapper for CUDA Functions of DCNv3",
-    packages=find_packages(exclude=(
-        "configs",
-        "tests",
-    )),
+    name="DCNv4",
+    version="1.0.0.post2",
+    author="Yuwen Xiong, Feng Wang",
+    url="",
+    description="PyTorch Wrapper for CUDA Functions of DCNv4",
+    packages=['DCNv4', 'DCNv4/functions', 'DCNv4/modules'],
     ext_modules=get_extensions(),
     cmdclass={"build_ext": torch.utils.cpp_extension.BuildExtension},
 )
