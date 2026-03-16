@@ -58,6 +58,7 @@ class DCNv4(nn.Module):
             raise ValueError(
                 f'channels must be divisible by group, but got {channels} and {group}')
         _d_per_group = channels // group
+        print(f"_d_per_group的数值是：{_d_per_group}")
 
         # you'd better set _d_per_group to a power of 2 which is more efficient in our CUDA implementation
         assert _d_per_group % 16 == 0

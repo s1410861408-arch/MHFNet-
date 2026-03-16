@@ -522,24 +522,25 @@ class DCN(nn.Module):
 
     def __init__(self, c, k=3, s=1, p=None, d=1, gc=8, dk=3, act=True):
         super().__init__()
+        
         assert k == 3
         self.conv = DCNv4(c, k, s, autopad(k, p, d), group=c // gc, dw_kernel_size=dk, without_pointwise=False,
                           output_bias=False)
         # self.conv = DCNv4(c, k, s, autopad(k, p, d), group=c // 16, dw_kernel_size=dk, without_pointwise=False,
         #                   output_bias=False)
 
-    def forward(self, x):
-        """Apply convolution, batch normalization and activation to input tensor."""
-        return self.conv(x)
     # def forward(self, x):
-    #     # 1. 獲取 YOLOv8 傳進來的 4D 維度 (N, C, H, W)
-    #     N, C, H, W = x.shape
+    #     """Apply convolution, batch normalization and activation to input tensor."""
+    #     return self.conv(x)
+    def forward(self, x):
+        # x 的形状目前是 [N, C, H, W]
+        b, c, h, w = x.shape
+        # 1. 维度转换：从 [N, C, H, W] 变为 [N, H*W, C] (即 DCNv4 要求的 3 维)
+        # 使用 permute 移动通道维，reshape 展平空间维
+        x = x.permute(0, 2, 3, 1).reshape(b, h * w, c).contiguous()
+        # 2. 调用 DCNv4 (传入 shape 信息帮助它内部识别 H, W)
+        x = self.conv(x, shape=(h, w))
+        # 3. 维度还原：从 [N, L, C] 变回 [N, C, H, W]
+        x = x.reshape(b, h, w, c).permute(0, 3, 1, 2).contiguous()
         
-    #     # 2. 轉換為 DCNv4 需要的 3D 序列格式 (N, H*W, C)
-    #     x_in = x.flatten(2).transpose(1, 2)
-        
-    #     # 3. 傳入 DCNv4 進行運算 (必須順便告訴它 H 和 W)
-    #     x_out = self.conv(x_in, shape=(H, W))
-        
-    #     # 4. 將 DCNv4 輸出的 3D 序列還原回 4D 影像格式 (N, C, H, W)
-    #     return x_out.transpose(1, 2).view(N, -1, H, W)
+        return x

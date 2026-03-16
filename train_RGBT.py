@@ -2,6 +2,10 @@ import argparse, sys, os, warnings
 warnings.filterwarnings('ignore')
 from pathlib import Path
 from ultralytics import YOLO
+import torch
+torch.backends.cudnn.benchmark = False
+torch.backends.cudnn.deterministic = True
+torch.backends.cudnn.enabled = False
 
 FILE = Path(__file__).resolve()
 ROOT = FILE.parents[0]  # YOLOv5 root directory
@@ -27,17 +31,19 @@ def transformer_opt(opt):
 def parse_opt():
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--yaml', type=str, default='D:/YOLO-MIF-master/ultralytics/models/v8-RGBT/yolov8-sar.yaml', help='model.yaml path')
+    #parser.add_argument('--yaml', type=str, default='D:/YOLO-MIF-master/ultralytics/models/v8-RGBT/yolov8-sar.yaml', help='model.yaml path')
+    parser.add_argument('--yaml', type=str, default='ultralytics/models/v8-RGBT/yolov8-RGBT-FAFM.yaml', help='model.yaml path')
     parser.add_argument('--weight', type=str, default='yolov8n.pt', help='pretrained model path')
     parser.add_argument('--cfg', type=str, default='hyp.yaml', help='hyperparameters path')
-    parser.add_argument('--data', type=str, default='data-vsff2.yaml', help='data yaml path')
+    parser.add_argument('--data', type=str, default='/home/user/4T_Storage/SJY/SAR/MHFNet/dataset/datasets1.yaml', help='data yaml path')
+    #parser.add_argument('--data', type=str, default='data-vsff2.yaml', help='data yaml path')
     parser.add_argument('--epochs', type=int, default=300, help='number of epochs to train for')
     parser.add_argument('--patience', type=int, default=100, help='EarlyStopping patience (epochs without improvement)')
     parser.add_argument('--unamp', action='store_true', help='Unuse Automatic Mixed Precision (AMP) training')
     parser.add_argument('--batch', type=int, default=16, help='number of images per batch (-1 for AutoBatch)')
     parser.add_argument('--imgsz', type=int, default=256, help='size of input images as integer')
     parser.add_argument('--cache', type=str, nargs='?', const='ram', help='image --cache ram/disk')
-    parser.add_argument('--device', type=str, default='', help='cuda device, i.e. 0 or 0,1,2,3 or cpu')
+    parser.add_argument('--device', type=str, default='0', help='cuda device, i.e. 0 or 0,1,2,3 or cpu')
     parser.add_argument('--workers', type=int, default=2, help='max dataloader workers (per RANK in DDP mode)')
     parser.add_argument('--project', type=str, default= 'runs/train2/', help='save to project/name')
     parser.add_argument('--name', type=str, default='YOLOv8n-vsff2', help='save to project/name')
